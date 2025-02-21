@@ -1,9 +1,10 @@
-// Cette fonction va mettre en place gestion d'erreur type
+import React from 'react';
+
 function ErrorGest({name}: {name: string}) {
     return (
-    <>
-      <p>Ereur {name} introuvable veuillez retenter plus tard.</p>
-    </>
+      <div>
+        <p>Ereur {name} introuvable veuillez retenter plus tard.</p>
+      </div>
     )
   }
 
